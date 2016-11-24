@@ -1,0 +1,20 @@
+{
+  "name": "opsway/tecdoc_migration",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alexandr Vronskiy",
+      "email": "alvro@opsway.com"
+    }
+  ],
+  "require": {
+    "doctrine/dbal": "v2.5.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpsWay\\TecDocMigration\\": ""
+    }
+  }
+}

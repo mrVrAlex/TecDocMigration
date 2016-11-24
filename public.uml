@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>fbc29316-2dba-41eb-96cc-9356d0082244.schema:boodmo.public</OriginalElement>
+  <nodes>
+    <node x="409.25" y="0.0">fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.families</node>
+    <node x="485.0" y="190.0">fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.parts</node>
+    <node x="880.0" y="519.0">fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.temp_table</node>
+    <node x="20.0" y="0.0">fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.attribute_groups</node>
+    <node x="172.0" y="519.0">fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.catalog_vehicles</node>
+    <node x="0.0" y="168.0">fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.attributes</node>
+    <node x="502.0" y="533.0">fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.catalog_parts</node>
+    <node x="10.0" y="380.0">fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.attribute_options</node>
+    <node x="225.0" y="212.0">fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.vehicles</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.catalog_vehicles" target="fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.catalog_vehicles">
+      <point x="0.0" y="147.0" />
+      <point x="322.0" y="833.0" />
+      <point x="152.0" y="833.0" />
+      <point x="152.0" y="666.0" />
+      <point x="-150.0" y="-0.0" />
+    </edge>
+    <edge source="fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.vehicles" target="fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.families">
+      <point x="0.0" y="-114.0" />
+      <point x="345.0" y="165.0" />
+      <point x="449.25" y="165.0" />
+      <point x="-40.0" y="70.0" />
+    </edge>
+    <edge source="fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.parts" target="fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.families">
+      <point x="0.0" y="-136.0" />
+      <point x="633.5" y="165.0" />
+      <point x="529.25" y="165.0" />
+      <point x="40.0" y="70.0" />
+    </edge>
+    <edge source="fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.attribute_options" target="fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.attributes">
+      <point x="0.0" y="-70.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.attributes" target="fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.attribute_groups">
+      <point x="0.0" y="-81.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.catalog_parts" target="fbc29316-2dba-41eb-96cc-9356d0082244.table:boodmo.public.catalog_parts">
+      <point x="0.0" y="136.0" />
+      <point x="642.0" y="825.0" />
+      <point x="482.0" y="825.0" />
+      <point x="482.0" y="669.0" />
+      <point x="-140.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="425.0" y="444.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+

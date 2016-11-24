@@ -1,0 +1,2 @@
+DELETE FROM attribute_options WHERE attribute_id = 33;
+INSERT INTO attribute_options (attribute_id, code, value, translates) SELECT '33'::INT as attribute_id, code, name as value, '{}'::JSONB as translates FROM brands;
